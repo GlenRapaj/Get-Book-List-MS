@@ -7,7 +7,7 @@ spring:
     config:
       uri: http://localhost:8888
   datasource:
-    password: pilivesa
+    password: ********
     url: jdbc:mysql://localhost:3306/user
     username: root
   jpa:
