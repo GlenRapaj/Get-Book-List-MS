@@ -1,0 +1,20 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: getBookList
+  cloud:
+    config:
+      uri: http://localhost:8888
+  datasource:
+    password: pilivesa
+    url: jdbc:mysql://localhost:3306/user
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialet: org.hibernate.dialect.MySQL5Dialect
+        format_sql: true
+    show-sql: true
